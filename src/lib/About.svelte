@@ -13,7 +13,7 @@
         <a use:scrollto={'#portfolio'}><button class="header px-4 py-2 my-4 bg-primary-dark rounded-lg font-bold">Check out my Portfolio</button></a>
 
     </div>
-        <img src="../../public/laptop.svg" alt="laptop" width="250px" />
+        <img src="./laptop.svg" alt="laptop" width="250px" />
     </div>
 </div>
 </main>

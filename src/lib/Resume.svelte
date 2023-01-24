@@ -73,7 +73,7 @@
         <div class="text-3xl text-primary-dark font-bold">Skills</div>
         <div class="flex mt-8 gap-8 flex-wrap">
             {#each skills as logo}
-                <img style="height: 75px" src="../../public/skills/{logo}.svg" alt="skill" />
+                <img style="height: 75px" src="./skills/{logo}.svg" alt="skill" />
             {/each}
         </div>
     </div>

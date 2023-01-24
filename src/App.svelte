@@ -7,7 +7,7 @@
 </script>
 
 <main>
-  <link rel="stylesheet" href="build/smui.css" />
+  <link rel="stylesheet" href="./smui.css" />
     <Header />
     <About />
     <Portfolio />

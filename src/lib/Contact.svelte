@@ -56,7 +56,6 @@
 </main>
 <script>
     import Textfield from '@smui/textfield';
-    import HelperText from '@smui/textfield/helper-text';
     let fullName = "";
     let Email = "";
     let Subject = "";
