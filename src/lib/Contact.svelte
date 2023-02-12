@@ -21,7 +21,9 @@
       </div>
     </div>
   </div>
-  <div class="lg:mx-64 lg:mt-16 mx-12 mt-8 lg:text-xl text-lg">
+  <div
+    class="lg:mx-64 lg:mt-16 mx-12 mt-8 lg:text-xl text-lg flex flex-col justify-start gap-4"
+  >
     <div>
       <span class="text-primary-dark font-bold mr-1">Phone: </span> +91 78689 78957
     </div>
@@ -29,9 +31,47 @@
       <span class="text-primary-dark font-bold mr-1">Email: </span> fosslover@duck.com
     </div>
     <div>
-      <span class="text-primary-dark font-bold mr-1">Social Media: </span>
+      <div class="text-primary-dark font-bold mb-2">Social Media:</div>
+      <a
+        href="https://www.github.com/fosslover69"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i class="fab fa-github lg:fa-3x fa-2x lg:mr-4 mr-2" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/fosslover69"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i class="fab fa-linkedin lg:fa-3x fa-2x lg:mr-4 mr-2" />
+      </a>
+      <a
+        href="https://www.telegram.dog/fosslover"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i class="fab fa-telegram lg:fa-3x fa-2x lg:mr-4 mr-2" />
+      </a>
+      <a
+        href="https://blog.fosslover.dev/shows"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i class="fab fa-dev lg:fa-3x fa-2x lg:mr-4 mr-2" />
+      </a>
+      <a href="mailto:fosslover@duck.com" target="_blank" rel="noreferrer">
+        <i class="fas fa-envelope lg:fa-3x fa-2x lg:mr-4 mr-2" />
+      </a>
+      <a
+        href="https://www.youtube.com/@IntrovertedTechie"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i class="fab fa-youtube lg:fa-3x fa-2x lg:mr-4 mr-2" />
+      </a>
     </div>
-    <div>
+    <!-- <div>
       <div class="text-primary-dark font-bold mt-4">Ping Me:</div>
       <div class="flex items-center flex-col justify-center">
         <div>
@@ -71,7 +111,7 @@
           >
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </main>
 
