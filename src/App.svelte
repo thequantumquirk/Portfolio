@@ -8,6 +8,7 @@
 
 <main>
   <link rel="stylesheet" href="./smui.css" />
+  <link href="./../node_modules/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
   <div class="fixed">
     <Header />
   </div>
