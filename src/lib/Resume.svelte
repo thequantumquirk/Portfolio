@@ -1,4 +1,5 @@
 <script lang="ts">
+  let width = window.innerWidth;
   let skills = [
     "vue",
     "vuetify",
@@ -78,7 +79,7 @@
         <div class="lg:h-64 h-full w-0 border-l-2 border-primary-dark" />
       </div>
       <div class="flex flex-col gap-2">
-        <div class="flex gap-1 items-end">
+        <div class="lg:flex gap-1 items-end">
           <div class="lg:text-3xl text-2xl font-bold">CORVUS-AOSP</div>
           <div class="text-sm">(Nov 2020 - Present)</div>
         </div>
@@ -117,7 +118,7 @@
         <div class="h-full w-0 border-l-2 border-primary-dark" />
       </div>
       <div class="flex flex-col gap-2">
-        <div class="flex gap-1 items-end">
+        <div class="lg:flex gap-1 items-end">
           <div class="lg:text-3xl text-2xl font-bold">Bishop Heber College</div>
           <div class="sm:text-sm text-xs">(pursuing)</div>
         </div>
@@ -145,7 +146,11 @@
     <div class="text-3xl text-primary-dark font-bold">Skills</div>
     <div class="flex mt-8 lg:gap-8 gap-4 flex-wrap">
       {#each skills as logo}
+        {#if width>768}
         <img style="height: 75px" src="./skills/{logo}.svg" alt="skill" />
+        {:else}
+        <img style="height: 50px" src="./skills/{logo}.svg" alt="skill" />
+        {/if}
       {/each}
     </div>
   </div>
