@@ -1,13 +1,13 @@
-@use 'sass:color';
+@use "sass:color";
 
-@use '@material/theme/color-palette';
+@use "@material/theme/color-palette";
 
 // Svelte Colors!
-@use '@material/theme/index' as theme with (
-  $primary: #6767F4,
-  $secondary: #E7E7FC,
-  $surface: #17171C,
-  $background: #17171C,
+@use "@material/theme/index" as theme with (
+  $primary: #6767f4,
+  $secondary: #e7e7fc,
+  $surface: #17171c,
+  $background: #17171c,
   $error: color-palette.$red-900
 );
 
@@ -22,7 +22,7 @@ body {
   border-right-width: 0px !important;
 }
 
-::placeholder{
+::placeholder {
   padding: 0;
   margin: 0;
 }

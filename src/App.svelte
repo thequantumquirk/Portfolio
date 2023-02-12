@@ -8,9 +8,11 @@
 
 <main>
   <link rel="stylesheet" href="./smui.css" />
+  <div class="fixed">
     <Header />
-    <About />
-    <Portfolio />
-    <Resume />
-    <Contact />
+  </div>
+  <About />
+  <Portfolio />
+  <Resume />
+  <Contact />
 </main>

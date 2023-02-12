@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --bg-color: #17171C;
-  --primary: #6767F4;
-  --text: #E7E7FC;
-  font-family: 'Manrope', sans-serif;
+  --bg-color: #17171c;
+  --primary: #6767f4;
+  --text: #e7e7fc;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -34,9 +34,9 @@ body {
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: #DFDFFB;
-    --primary: #9B9BF8;
-    --text: #17171C;
+    --bg-color: #dfdffb;
+    --primary: #9b9bf8;
+    --text: #17171c;
   }
   a:hover {
     color: #747bff;
