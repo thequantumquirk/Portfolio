@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+button:hover{
+  color: var(--primary);
+  cursor: pointer;
+  background-color: #7e7efc41;
+}
 :root {
   --bg-color: #17171c;
   --primary: #6767f4;
