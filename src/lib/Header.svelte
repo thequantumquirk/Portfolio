@@ -11,10 +11,10 @@
       Ravishanker
     </div>
     <div class="flex justify-evenly font-semibold items-center gap-4 lg:gap-16">
-      <a use:scrollto={"#about"} class="header">About</a>
-      <a use:scrollto={"#portfolio"} class="header">Portfolio</a>
+      <div use:scrollto={"#about"} class="header">About</div>
+      <div use:scrollto={"#portfolio"} class="header">Portfolio</div>
       <a href="https://blog.fosslover.dev/shows" class="header">Blog</a>
-      <a use:scrollto={"#resume"} class="header">Resume</a>
+      <div use:scrollto={"#resume"} class="header">Resume</div>
       <button
         use:scrollto={"#contact"}
         class="header lg:px-4 lg:py-2 px-2 py-1 bg-primary-dark rounded-lg text-sm lg:text-lg"

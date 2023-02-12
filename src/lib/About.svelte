@@ -23,11 +23,10 @@
           and React, with a passion for creating beautiful UI designs. I also
           have an interest in technologies like Rust.
         </div>
-        <a use:scrollto={"#portfolio"}
-          ><button
-            class="header lg:px-4 lg:py-2 px-2 py-1 my-4 bg-primary-dark rounded-lg text-base font-bold"
-            >Check out my Portfolio</button
-          ></a
+        <button
+          use:scrollto={"#portfolio"}
+          class="header lg:px-4 lg:py-2 px-3 py-1 my-4 bg-primary-dark rounded-lg text-base font-bold"
+          >Check out my Portfolio</button
         >
       </div>
       <img src="./laptop.svg" alt="laptop" width="250px" />
