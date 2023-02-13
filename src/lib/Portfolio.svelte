@@ -183,7 +183,7 @@
         class="flex lg:flex-row bg-card-black lg:p-8 py-8 lg:rounded-lg flex-col items-center justify-between lg:gap-32 lg:mx-32 mt-16 mt-8"
       >
         {#if width < 1024}
-          <div class="w-52 h-52 rounded-lg bg-dark-white">
+          <div class="w-52 h-52 rounded-lg" style="background-color: #fff;">
             <img src="./fun.svg" alt="fun" class="w-full h-full" />
           </div>
         {/if}
