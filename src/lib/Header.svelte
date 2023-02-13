@@ -13,7 +13,7 @@
     <div class="flex justify-evenly font-semibold items-center gap-2 lg:gap-16">
       <div use:scrollto={"#about"} class="header">About</div>
       <div use:scrollto={"#portfolio"} class="header">Portfolio</div>
-      <a href="https://blog.fosslover.dev/shows" class="header">Blog</a>
+      <a href="https://blog.fosslover.dev/shows" target="_blank" rel="noreferrer" class="header">Blog</a>
       <div use:scrollto={"#resume"} class="header">Resume</div>
       <button
         use:scrollto={"#contact"}
