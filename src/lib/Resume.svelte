@@ -22,12 +22,12 @@
       class="border border-primary-dark opacity-50 h-0"
       style="width: 60vw"
     />
-    <div class="text-primary-dark lg:text-4xl text-2xl font-bold">Resume</div>
+    <h1 class="text-primary-dark lg:text-4xl text-2xl font-bold">Resume</h1>
   </div>
   <div class="lg:mx-32 mt-12 mx-8">
-    <div class="lg:text-3xl text-xl text-primary-dark font-bold">
+    <h2 class="lg:text-3xl text-xl text-primary-dark font-bold">
       Professional Experience
-    </div>
+    </h2>
     <div class="flex mt-6 gap-4">
       <div class="flex mt-3 flex-col items-center">
         <div
@@ -107,9 +107,9 @@
     </div>
   </div>
   <div class="lg:mx-32 lg:mt-16 mt-12 mx-8">
-    <div class="lg:text-3xl text-2xl text-primary-dark font-bold">
+    <h2 class="lg:text-3xl text-2xl text-primary-dark font-bold">
       Education
-    </div>
+    </h2>
     <div class="flex mt-6 gap-4">
       <div class="flex flex-col mt-3 items-center">
         <div
@@ -143,7 +143,7 @@
     </div>
   </div>
   <div class="lg:mx-32 mt-16 mx-8">
-    <div class="text-3xl text-primary-dark font-bold">Skills</div>
+    <h2 class="text-3xl text-primary-dark font-bold">Skills</h2>
     <div class="flex mt-8 lg:gap-8 gap-4 flex-wrap">
       {#each skills as logo}
         {#if width>768}

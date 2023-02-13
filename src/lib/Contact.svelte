@@ -16,9 +16,9 @@
         class="border border-primary-dark opacity-50 h-0"
         style="width: 60vw"
       />
-      <div class="text-primary-dark lg:text-4xl text-2xl font-bold">
+      <h1 class="text-primary-dark lg:text-4xl text-2xl font-bold">
         Contact
-      </div>
+      </h1>
     </div>
   </div>
   <div
