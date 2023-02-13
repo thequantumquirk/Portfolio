@@ -19,7 +19,7 @@
     >
       <div>
         <div class="lg:text-xl text-base">
-          Hello, I am a Front-End Developer and UI/UX Designer skilled in Vue
+          Hello, I'm Ravishanker @ Fosslover, I'm a Front-End Developer and UI/UX Designer skilled in Vue
           and React, with a passion for creating beautiful UI designs. I also
           have an interest in technologies like Rust.
         </div>
