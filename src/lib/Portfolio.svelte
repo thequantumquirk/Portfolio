@@ -20,18 +20,29 @@
         <img
           src="./bakeaholicks.svg"
           alt="bakeaholics"
-          class="w-full h-full p-4" />
+          class="w-full h-full p-4"
+        />
       </div>
       <div
         class="flex w-3/4 flex-col lg:items-start items-center lg:gap-6 gap-3"
       >
-      <div class="flex flex-col lg:flex-row justify-center items-center w-full lg:justify-between">
-        <div class="flex items-end gap-1">
-          <div class="lg:text-4xl text-2xl font-bold">BAKEAHOLICS</div>
-          <div>(Front-End)</div>
+        <div
+          class="flex flex-col lg:flex-row justify-center items-center w-full lg:justify-between"
+        >
+          <div class="flex items-end gap-1">
+            <div class="lg:text-4xl text-2xl font-bold">BAKEAHOLICS</div>
+            <div>(Front-End)</div>
+          </div>
+          <a
+            href="https://youtu.be/K6pjWb93bt8"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button class="px-2 py-1 bg-primary-dark rounded-lg font-bold mt-2"
+              >Demo</button
+            >
+          </a>
         </div>
-        <button class="px-1 py-1 bg-primary-dark rounded-lg font-bold mt-2">Demo</button>
-      </div>
         <div>
           Bakeaholicks is a professionally designed website for a bakery that
           specializes in the art of bread baking. Utilizing the Vue.js and
@@ -72,9 +83,16 @@
             <div>(Web Development and UI/UX design)</div>
           </div>
           <div>
-            <button class="bg-primary-dark font-bold px-4 py-1 rounded-lg mt-2"
-              >Project</button
+            <a
+              href="https://github.com/Corvus-Aosp"
+              target="_blank"
+              rel="noreferrer"
             >
+              <button
+                class="bg-primary-dark font-bold px-4 py-1 rounded-lg mt-2"
+                >Project</button
+              >
+            </a>
           </div>
         </div>
         <div class="w-11/12">
@@ -98,7 +116,10 @@
         </div>
       </div>
       {#if width > 1024}
-        <div class="w-52 h-52 rounded-lg bg-dark-white" style="background-color: #fff">
+        <div
+          class="w-52 h-52 rounded-lg bg-dark-white"
+          style="background-color: #fff"
+        >
           <img src="./corvus.svg" alt="corvus" class="w-full h-full p-8" />
         </div>
       {/if}
@@ -112,17 +133,26 @@
       <div
         class="flex w-3/4 flex-col lg:items-start items-center lg:gap-6 gap-3"
       >
-      <div class="flex flex-col lg:flex-row justify-center items-center w-full lg:justify-between">
-        <div class="flex items-end gap-1">
-          <div class="lg:text-4xl text-2xl font-bold">SemScape</div>
-          <div>(WIP)</div>
+        <div
+          class="flex flex-col lg:flex-row justify-center items-center w-full lg:justify-between"
+        >
+          <div class="flex items-end gap-1">
+            <div class="lg:text-4xl text-2xl font-bold">SemScape</div>
+            <div>(WIP)</div>
+          </div>
+          <div>
+            <a
+              href="https://blog.fosslover.dev/show/19752/a-cms-to-solve-the-stress-of-students"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button
+                class="bg-primary-dark font-bold px-4 py-1 rounded-lg mt-2"
+                >Blog</button
+              >
+            </a>
+          </div>
         </div>
-        <div>
-          <button class="bg-primary-dark font-bold px-4 py-1 rounded-lg mt-2"
-            >Blog</button
-          >
-        </div>
-      </div>
         <div>
           The main goal of SemScape is to reduce the friction experienced by
           students while learning and preparing for semester exams. The name
@@ -152,13 +182,15 @@
     >
       {#if width < 1024}
         <div class="w-52 h-52 rounded-lg bg-dark-white">
-          <i class="fa-solid fa-gamepad text-4xl text-primary-dark p-8"></i>
+          <i class="fa-solid fa-gamepad text-4xl text-primary-dark p-8" />
         </div>
       {/if}
       <div
         class="flex w-3/4 flex-col lg:items-start items-center lg:gap-6 gap-3"
       >
-        <div class="flex flex-col lg:flex-row justify-center items-center w-full lg:justify-between">
+        <div
+          class="flex flex-col lg:flex-row justify-center items-center w-full lg:justify-between"
+        >
           <div
             class="flex lg:flex-row flex-col lg:items-end items-center gap-1"
           >
@@ -166,14 +198,26 @@
             <div>(Side Hustles)</div>
           </div>
           <div class="mt-2">
-            <button
-              class="px-1 py-1 mr-1 bg-primary-dark rounded-lg text-sm font-bold"
-              >Pig Translator</button
+            <a
+              href="https://pig.fosslover.dev"
+              target="_blank"
+              rel="noreferrer"
             >
-            <button
-              class="px-1 py-1 mr-1 bg-primary-dark rounded-lg text-sm font-bold"
-              >Snake Game</button
+              <button
+                class="px-1 py-1 mr-1 bg-primary-dark rounded-lg text-sm font-bold"
+                >Pig Translator</button
+              ></a
             >
+            <a
+              href="https://snake.fosslover.dev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button
+                class="px-1 py-1 mr-1 bg-primary-dark rounded-lg text-sm font-bold"
+                >Snake Game</button
+              >
+            </a>
           </div>
         </div>
         <div>
@@ -196,7 +240,10 @@
         </div>
       </div>
       {#if width > 1024}
-        <div class="w-52 h-52 rounded-lg bg-dark-white" style="background-color:#fff">
+        <div
+          class="w-52 h-52 rounded-lg bg-dark-white"
+          style="background-color:#fff"
+        >
           <img src="./fun.svg" alt="fun" class="w-full h-full" />
         </div>
       {/if}
