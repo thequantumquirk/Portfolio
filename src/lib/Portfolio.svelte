@@ -16,7 +16,12 @@
     <div
       class="flex lg:flex-row flex-col items-center justify-between lg:gap-32 lg:mx-32 mt-16"
     >
-      <div class="w-52 h-52 rounded-lg bg-dark-white" />
+      <div class="w-52 h-52 rounded-lg" style="background-color: #fff">
+        <img
+          src="./bakeaholicks.svg"
+          alt="bakeaholics"
+          class="w-full h-full p-4" />
+      </div>
       <div
         class="flex w-3/4 flex-col lg:items-start items-center lg:gap-6 gap-3"
       >
@@ -52,7 +57,9 @@
       class="flex lg:flex-row bg-card-black bg-card-black lg:p-8 py-8 flex-col items-center justify-between lg:gap-32 lg:mx-32 mt-16 mt-8"
     >
       {#if width < 1024}
-        <div class="w-52 h-52 rounded-lg bg-dark-white" />
+        <div class="w-52 h-52 rounded-lg" style="background-color: #fff;">
+          <img src="./corvus.svg" alt="corvus" class="w-full h-full p-8" />
+        </div>
       {/if}
       <div class="flex w-3/4 flex-col justify-center lg:gap-6 gap-3">
         <div
@@ -91,13 +98,17 @@
         </div>
       </div>
       {#if width > 1024}
-        <div class="w-52 h-52 rounded-lg bg-dark-white" />
+        <div class="w-52 h-52 rounded-lg bg-dark-white" style="background-color: #fff">
+          <img src="./corvus.svg" alt="corvus" class="w-full h-full p-8" />
+        </div>
       {/if}
     </div>
     <div
       class="flex lg:flex-row flex-col items-center justify-between lg:gap-32 lg:mx-32 mt-16 mt-8"
     >
-      <div class="w-52 h-52 rounded-lg bg-dark-white" />
+      <div class="w-52 h-52 rounded-lg" style="background-color: #fff;">
+        <img src="./semscape.svg" alt="semscape" class="w-full h-full p-8" />
+      </div>
       <div
         class="flex w-3/4 flex-col lg:items-start items-center lg:gap-6 gap-3"
       >
@@ -140,7 +151,9 @@
       class="flex lg:flex-row bg-card-black lg:p-8 py-8 lg:rounded-lg flex-col items-center justify-between lg:gap-32 lg:mx-32 mt-16 mt-8"
     >
       {#if width < 1024}
-        <div class="w-52 h-52 rounded-lg bg-dark-white" />
+        <div class="w-52 h-52 rounded-lg bg-dark-white">
+          <i class="fa-solid fa-gamepad text-4xl text-primary-dark p-8"></i>
+        </div>
       {/if}
       <div
         class="flex w-3/4 flex-col lg:items-start items-center lg:gap-6 gap-3"
@@ -183,7 +196,9 @@
         </div>
       </div>
       {#if width > 1024}
-        <div class="w-52 h-52 rounded-lg bg-dark-white" />
+        <div class="w-52 h-52 rounded-lg bg-dark-white" style="background-color:#fff">
+          <img src="./fun.svg" alt="fun" class="w-full h-full" />
+        </div>
       {/if}
     </div>
   </div>
