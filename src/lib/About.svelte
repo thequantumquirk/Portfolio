@@ -15,7 +15,7 @@
       <h1 class="text-primary-dark lg:text-4xl text-2xl font-bold">About</h1>
     </div>
     <div
-      class="flex lg:flex-row flex-col items-center justify-between mx-8 mt-8 gap-8 lg:gap-32 md:mx-32 lg:mt-16"
+      class="flex lg:flex-row flex-col items-center lg:px-16 justify-between mx-8 mt-8 gap-8 lg:gap-32 md:mx-32 lg:mt-16"
     >
       <div>
         <div class="lg:text-xl text-base">

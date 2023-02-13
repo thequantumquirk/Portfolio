@@ -22,7 +22,7 @@
     </div>
   </div>
   <div
-    class="lg:mx-64 lg:mt-16 mx-12 mt-8 lg:text-xl lg:text-lg flex flex-col justify-start gap-4"
+    class="lg:mx-64 lg:px-16 lg:mt-16 mx-12 mt-8 lg:text-xl flex flex-col justify-start gap-4"
   >
     <div>
       <span class="text-primary-dark font-bold mr-1">Phone: </span> +91 78689 78957

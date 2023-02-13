@@ -24,6 +24,7 @@
     />
     <h1 class="text-primary-dark lg:text-4xl text-2xl font-bold">Resume</h1>
   </div>
+  <div class="lg:px-16">
   <div class="lg:mx-32 mt-12 mx-8">
     <h2 class="lg:text-3xl text-xl text-primary-dark font-bold">
       Professional Experience
@@ -152,6 +153,7 @@
         <img style="height: 50px" src="./skills/{logo}.svg" alt="skill" />
         {/if}
       {/each}
+    </div>
     </div>
   </div>
 </div>
