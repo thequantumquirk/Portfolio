@@ -5,7 +5,7 @@
 <main>
   <div
     id="about"
-    class="lg:px-32 pt-44 w-screen flex flex-col justify-center items-center"
+    class="lg:px-32 px-4 pt-44 w-screen flex flex-col justify-center items-center"
   >
     <div class="flex lg:gap-32 items-center gap-8 justify-between">
       <div

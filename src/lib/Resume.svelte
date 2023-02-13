@@ -16,7 +16,7 @@
   ];
 </script>
 
-<div id="resume" class="lg:px-32 w-screen pt-32">
+<div id="resume" class="lg:px-32 px-4 w-screen pt-32">
   <div class="flex lg:gap-32 gap-8 items-center justify-center">
     <div
       class="border border-primary-dark opacity-50 h-0"
@@ -36,7 +36,7 @@
         <div class="lg:h-64 h-full w-0 border-l-2 border-primary-dark" />
       </div>
       <div class="flex flex-col gap-2 pb-8">
-        <div class="flex gap-2 items-end">
+        <div class="lg:flex gap-2 items-end">
           <div class="lg:text-3xl text-2xl font-bold">FOSSFREAKS</div>
           <div class="text-sm">(May 2022 - Present)</div>
         </div>
