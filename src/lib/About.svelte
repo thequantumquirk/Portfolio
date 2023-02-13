@@ -27,7 +27,7 @@
         <button
           use:scrollto={"#portfolio"}
           class="header lg:px-4 lg:py-2 px-3 py-1 my-4 bg-primary-dark rounded-lg lg:text-base text-sm font-bold"
-          >Check out <br /> my Portfolio</button
+          >My Portfolio</button
         >
       </div>
       <img src="./laptop.svg" alt="laptop" width="250px" />
