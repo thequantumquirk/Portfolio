@@ -184,7 +184,7 @@
       >
         {#if width < 1024}
           <div class="w-52 h-52 rounded-lg bg-dark-white">
-            <i class="fa-solid fa-gamepad text-4xl text-primary-dark p-8" />
+            <img src="./fun.svg" alt="fun" class="w-full h-full" />
           </div>
         {/if}
         <div
