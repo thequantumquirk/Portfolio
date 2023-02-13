@@ -10,7 +10,7 @@
     <div use:scrollto={"top"} class="font-bold text-primary-dark text-4xl cursor-pointer">
       Ravishanker
     </div>
-    <div class="flex justify-evenly font-semibold items-center gap-4 lg:gap-16">
+    <div class="flex justify-evenly font-semibold items-center gap-2 lg:gap-16">
       <div use:scrollto={"#about"} class="header">About</div>
       <div use:scrollto={"#portfolio"} class="header">Portfolio</div>
       <a href="https://blog.fosslover.dev/shows" class="header">Blog</a>
@@ -28,13 +28,13 @@
   .header {
     color: var(--text);
     cursor: pointer;
-    padding: 0.25rem 0.5rem;
+    padding: 0.25rem 0.25rem;
     border-radius: 0.5rem;
   }
   .header:hover {
     color: var(--primary);
     cursor: pointer;
     background-color: #7e7efc41;
-    padding: 0.25rem 0.5rem;
+    padding: 0.25rem 0.25rem;
   }
 </style>
