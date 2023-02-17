@@ -35,7 +35,7 @@
               <div>(Front-End)</div>
             </div>
             <a
-              href="https://youtu.be/K6pjWb93bt8"
+              href="https://bake.fosslover.dev"
               target="_blank"
               rel="noreferrer"
             >
