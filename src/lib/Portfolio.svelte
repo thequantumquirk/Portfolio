@@ -34,16 +34,6 @@
               <div class="lg:text-4xl text-2xl font-bold">BAKEAHOLICS</div>
               <div>(Front-End)</div>
             </div>
-            <a
-              href="https://bake.fosslover.dev"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button
-                class="px-2 py-1 bg-primary-dark rounded-lg font-bold mt-2"
-                >Demo</button
-              >
-            </a>
           </div>
           <div>
             Bakeaholicks is a professionally designed website for a bakery that
