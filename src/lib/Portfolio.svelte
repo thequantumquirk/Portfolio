@@ -57,7 +57,7 @@
         </div>
       </div>
       <div
-        class="flex lg:flex-row bg-card-black bg-card-black lg:p-8 py-8 flex-col items-center justify-between lg:gap-32 lg:mx-32 mt-16 mt-8"
+        class="flex lg:flex-row bg-card-black lg:p-8 py-8 flex-col items-center justify-between lg:gap-32 lg:mx-32 mt-16"
       >
         {#if width < 1024}
           <div class="w-52 h-52 rounded-lg" style="background-color: #fff;">
@@ -117,7 +117,7 @@
         {/if}
       </div>
       <div
-        class="flex lg:flex-row flex-col items-center justify-between lg:gap-32 lg:mx-32 mt-16 mt-8"
+        class="flex lg:flex-row flex-col items-center justify-between lg:gap-32 lg:mx-32 mt-16"
       >
         <div class="w-52 h-52 rounded-lg" style="background-color: #fff;">
           <img src="./semscape.svg" alt="semscape" class="w-full h-full p-8" />
@@ -170,7 +170,7 @@
         </div>
       </div>
       <div
-        class="flex lg:flex-row bg-card-black lg:p-8 py-8 lg:rounded-lg flex-col items-center justify-between lg:gap-32 lg:mx-32 mt-16 mt-8"
+        class="flex lg:flex-row bg-card-black lg:p-8 py-8 lg:rounded-lg flex-col items-center justify-between lg:gap-32 lg:mx-32 mt-16"
       >
         {#if width < 1024}
           <div class="w-52 h-52 rounded-lg" style="background-color: #fff;">
