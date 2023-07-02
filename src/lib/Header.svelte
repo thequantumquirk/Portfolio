@@ -4,27 +4,20 @@
 
 <main>
   <div
-    class="flex lg:flex-row flex-col gap-2 w-[98%] fixed top-4 mx-4 left-0 justify-between bg-card-black bg-opacity-40 lg:px-24 py-4 items-center rounded-full backdrop-blur-xl"
+    class="flex lg:flex-row flex-col gap-2 w-screen fixed top-0 left-0 justify-between lg:px-24 lg:py-8 py-4 items-center"
+    style="backdrop-filter: blur(10px)"
   >
-    <div
-      use:scrollto={"top"}
-      class="font-bold text-primary-dark text-3xl cursor-pointer"
-    >
+    <div use:scrollto={"top"} class="font-bold text-primary-dark text-4xl cursor-pointer">
       Ravishanker
     </div>
     <div class="flex justify-evenly font-semibold items-center gap-2 lg:gap-16">
       <div use:scrollto={"#about"} class="header">About</div>
       <div use:scrollto={"#portfolio"} class="header">Portfolio</div>
-      <a
-        href="https://blog.fosslover.dev/shows"
-        target="_blank"
-        rel="noreferrer"
-        class="header">Blog</a
-      >
+      <a href="https://blog.fosslover.dev/shows" target="_blank" rel="noreferrer" class="header">Blog</a>
       <div use:scrollto={"#resume"} class="header">Resume</div>
       <button
         use:scrollto={"#contact"}
-        class="lg:px-4 lg:py-1 px-2 py-1 bg-primary-dark rounded-lg text-sm lg:text-lg"
+        class="lg:px-4 lg:py-2 px-2 py-1 bg-primary-dark rounded-lg text-sm lg:text-lg"
         >Contact</button
       >
     </div>
