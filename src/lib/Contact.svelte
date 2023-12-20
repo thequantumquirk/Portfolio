@@ -28,14 +28,14 @@
     <div>
       <div class="text-primary-dark font-bold mb-2">Social Media:</div>
       <a
-        href="https://www.github.com/fosslover69"
+        href="https://www.github.com/thequantumquirk"
         target="_blank"
         rel="noreferrer"
       >
         <i class="fab fa-github lg:fa-3x fa-2x lg:mr-4 mr-2" />
       </a>
       <a
-        href="https://www.linkedin.com/in/fosslover69"
+        href="https://www.linkedin.com/in/ravishankervg"
         target="_blank"
         rel="noreferrer"
       >

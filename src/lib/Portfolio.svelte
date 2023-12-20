@@ -14,7 +14,7 @@
       buttons: [
         {
           name: "Project",
-          link: "https://github.com/fosslover69/snapstash",
+          link: "https://github.com/thequantumquirk/snapstash",
         },
         {
           name: "Demo",
@@ -32,7 +32,7 @@
       buttons: [
         {
           name: "Project",
-          link: "https://github.com/fosslover69/habitat-hive",
+          link: "https://github.com/thequantumquirk/habitat-hive",
         },
         {
           name: "Demo",
