@@ -49,7 +49,7 @@
         <i class="fab fa-telegram lg:fa-3x fa-2x lg:mr-4 mr-2" />
       </a>
       <a
-        href="https://blog.fosslover.dev/shows"
+        href="https://dev.to/ravishanker"
         target="_blank"
         rel="noreferrer"
       >
